@@ -1,0 +1,8 @@
+<h1>ALL DEM BANDS</h1>
+<button href="<%=new_band_url%>">Add a Band!</button><br>
+<body>
+    <% @bands.each do |band| %>
+    <a href="<%=band_url(band)%>"><%=band.name%></a>
+    <br>
+    <% end %>
+</body>
