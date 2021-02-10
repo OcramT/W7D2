@@ -13,19 +13,34 @@
  *= require_tree .
  *= require_self
  */
+ 
 
 header {
     font-family: monaco,Consolas, Lucida Console, monospace;
     font-size: 50px;
     color:rgb(23, 110, 106);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: monaco,Consolas, Lucida Console, monospace;
+    color:rgb(23, 110, 106);
 }
 
 #log-buttons {
     display: flex;
-    align-items: end;
+    align-items: center;
+    justify-content: space-around;
 }
 
 button {
     background-color: lightcoral;
     border-radius: 10px;
+}
+
+body {
+    background:rosybrown;
 }
